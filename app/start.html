@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="full-screen" content="true"/>
+	<meta name="screen-orientation" content="portrait"/>
+	<meta name="x5-fullscreen" content="true"/>
+	<meta name="360-fullscreen" content="true"/>
+	<title>Demo</title>
+    <style>
+		* {
+			-webkit-tap-highlight-color: transparent;
+			-webkit-touch-callout: none; 
+			-webkit-user-select: none; 
+			outline: none;
+		}
+		html {
+			height:100%;
+			margin:0;
+            overflow:hidden;
+		}
+		body {
+			font-family: arial;		
+			-ms-touch-action: none;
+			background: #FFFFFF;
+			padding: 0;
+			border: 0;
+			margin: 0;
+			height: 100%;
+		}
+		@-webkit-keyframes rotation {
+			from {-webkit-transform: rotate(0deg);}
+			to {-webkit-transform: rotate(360deg);}
+		}
+		@-moz-keyframes rotation {
+			from {-moz-transform: rotate(0deg);}
+			to {-moz-transform: rotate(360deg);}
+		}
+		@-o-keyframes rotation {
+			from {-o-transform: rotate(0deg);}
+			to {-o-transform: rotate(360deg);}
+		}
+		@keyframes rotation {
+			from {transform: rotate(0deg);}
+			to {transform: rotate(360deg);}
+		}
+    </style>
+  </head>
+  <body>
+	<script type="text/javascript" src="./vconsole.js"></script>
+	<script type="text/javascript" src="./native.js"></script>
+	<script type="text/javascript">
+		console.log("Start!");
+	</script>
+	<script type="module" src="./start.js"></script>
+  </body>
+</html>
+
+
