@@ -11,8 +11,8 @@ Clone this project and open it with XCode then you run it with simulator.
 4. Run command: `cokemake app`
 5. Wait for cokemake to make the package zip. When done, a "setup.zip" file should be found in your project's "dist" foler.
 6. Download "setup.zip".
-7. In your iOS project, you should find a "setup" dir (<XCODE-PRJ-DIR>ai2apps/app/setup). Remove all contents in this dir.
-8. Unzip "setup.zip" contents into "<XCODE-PRJ-DIR>ai2apps/app/setup" dir.
+7. In your iOS project, you should find a "setup" dir (<XCODE-PRJ-DIR>/app/setup). Remove all contents in this dir.
+8. Unzip "setup.zip" contents into "<XCODE-PRJ-DIR>/app/setup" dir.
 9. Use XCode build and run your project again, you should see your AI Agent App running!
 
 ## How to debug:
